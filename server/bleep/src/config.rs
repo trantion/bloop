@@ -427,7 +427,7 @@ fn default_qdrant_url() -> String {
 }
 
 fn default_answer_api_url() -> String {
-    String::from("http://127.0.0.1:7879")
+    String::from("http://127.0.0.1:7878")
 }
 
 fn default_max_chunk_tokens() -> usize {

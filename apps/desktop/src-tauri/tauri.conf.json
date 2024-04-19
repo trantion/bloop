@@ -86,7 +86,7 @@
       "csp": null
     },
     "updater": {
-      "active": true,
+      "active": false,
       "endpoints": [
         "https://api.bloop.ai/releases/{{target}}/{{current_version}}"
       ],

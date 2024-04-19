@@ -161,6 +161,7 @@ semver = { version = "1", features = ["serde"] }
 scc = { version= "1.9.1", features = ["serde"] }
 thread-priority = "0.13.1"
 diffy = "0.3.0"
+http = "0.2.12"
 
 [dev-dependencies]
 criterion = { version = "0.5.1", features = ["async_tokio"] }

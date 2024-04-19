@@ -203,6 +203,7 @@ function App() {
   useEffect(() => {
     let intervalId: number;
     if (!Object.keys(envConfig).length) {
+//      initApi('https://1987-2408-8459-3060-69d0-956d-1f47-c630-b4ba.ngrok-free.app/api');
       initApi('http://127.0.0.1:7878/api');
       intervalId = polling(() => getConfig().then(setEnvConfig), 500);
     } else {
@@ -237,6 +238,7 @@ function App() {
       os,
       invokeTauriCommand: invoke,
       release,
+//      apiUrl: 'https://1987-2408-8459-3060-69d0-956d-1f47-c630-b4ba.ngrok-free.app/api',
       apiUrl: 'http://127.0.0.1:7878/api',
       isRepoManagementAllowed: true,
       forceAnalytics: false,
